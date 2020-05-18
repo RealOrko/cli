@@ -1,0 +1,20 @@
+name: cf-cli
+base: core18
+version: '6.51.0'
+summary: Cloudfoundry CLI
+description: |
+  The command line client for Cloud Foundry https://docs.cloudfoundry.org/cf-cli
+
+grade: stable # devel/stable
+confinement: strict # devmode/strict
+
+parts:
+  cf-cli:
+    plugin: go
+    source-type: git
+    # source-tag: v6.51.0 #Does not work because of breaking changes to code.cloudfoundry.org/cli/integration/helpers/fakeservicebroker in master!
+    source: .
+    go-importpath: github.com/realorko/cli
+apps:
+  cf-cli:
+    command: bin/cli
