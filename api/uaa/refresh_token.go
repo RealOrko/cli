@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"code.cloudfoundry.org/cli/api/uaa/constant"
-	"code.cloudfoundry.org/cli/api/uaa/internal"
+	"github.com/realorko/cli/api/uaa/public"
 )
 
 // RefreshedTokens represents the UAA refresh token response.

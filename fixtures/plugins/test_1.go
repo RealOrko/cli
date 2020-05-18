@@ -129,6 +129,6 @@ func uninstalling() {
 	os.Remove(filepath.Join(os.TempDir(), "uninstall-test-file-for-test_1.exe"))
 }
 
-func main() {
-	plugin.Start(new(Test1))
-}
+// func main() {
+// 	plugin.Start(new(Test1))
+// }

@@ -2,7 +2,7 @@ package ccv3
 
 import (
 	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/constant"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/internal"
+	"github.com/realorko/cli/api/cloudcontroller/ccv3/public"
 )
 
 // Task represents a Cloud Controller V3 Task.

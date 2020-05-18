@@ -42,6 +42,6 @@ func (c *Panics) GetMetadata() plugin.PluginMetadata {
 	}
 }
 
-func main() {
-	plugin.Start(new(Panics))
-}
+// func main() {
+// 	plugin.Start(new(Panics))
+// }

@@ -3,7 +3,7 @@ package router
 import (
 	"net/url"
 
-	"code.cloudfoundry.org/cli/api/router/internal"
+	"github.com/realorko/cli/api/router/public"
 	"code.cloudfoundry.org/cli/api/router/routererror"
 )
 

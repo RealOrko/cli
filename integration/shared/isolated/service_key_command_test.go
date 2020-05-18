@@ -3,7 +3,7 @@ package isolated
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/cli/integration/helpers/fakeservicebroker"
+	"github.com/realorko/cli/integration/helpers/fakeservicebroker"
 
 	"code.cloudfoundry.org/cli/integration/helpers"
 

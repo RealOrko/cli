@@ -41,6 +41,6 @@ func (c *MySay) GetMetadata() plugin.PluginMetadata {
 	}
 }
 
-func main() {
-	plugin.Start(new(MySay))
-}
+// func main() {
+// 	plugin.Start(new(MySay))
+// }

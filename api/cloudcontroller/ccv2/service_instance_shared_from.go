@@ -2,7 +2,7 @@ package ccv2
 
 import (
 	"code.cloudfoundry.org/cli/api/cloudcontroller"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2/internal"
+	"github.com/realorko/cli/api/cloudcontroller/ccv2/public"
 )
 
 // ServiceInstanceSharedFrom represents a Cloud Controller relationship object

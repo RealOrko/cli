@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/cli/api/cloudcontroller"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2/internal"
+	"github.com/realorko/cli/api/cloudcontroller/ccv2/public"
 	"github.com/tedsuo/rata"
 )
 

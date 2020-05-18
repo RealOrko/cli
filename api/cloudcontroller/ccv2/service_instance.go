@@ -8,7 +8,7 @@ import (
 	"code.cloudfoundry.org/cli/api/cloudcontroller"
 	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
 	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2/constant"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2/internal"
+	"github.com/realorko/cli/api/cloudcontroller/ccv2/public"
 )
 
 // ServiceInstance represents a Cloud Controller Service Instance.

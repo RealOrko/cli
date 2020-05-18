@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"code.cloudfoundry.org/cli/api/uaa/constant"
-	"code.cloudfoundry.org/cli/api/uaa/internal"
+	"github.com/realorko/cli/api/uaa/public"
 )
 
 // AuthResponse contains the access token and refresh token which are granted

@@ -7,7 +7,7 @@ import (
 
 	"code.cloudfoundry.org/cli/api/cloudcontroller"
 	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2/internal"
+	"github.com/realorko/cli/api/cloudcontroller/ccv2/public"
 )
 
 // Service represents a Cloud Controller Service.

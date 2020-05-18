@@ -1,6 +1,6 @@
 package ccv3
 
-import "code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/internal"
+import "github.com/realorko/cli/api/cloudcontroller/ccv3/public"
 
 type VisibilityType string
 

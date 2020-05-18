@@ -40,6 +40,6 @@ func thePushCmd() {
 	fmt.Println("You called push in test_with_push")
 }
 
-func main() {
-	plugin.Start(new(TestWithPush))
-}
+// func main() {
+// 	plugin.Start(new(TestWithPush))
+// }

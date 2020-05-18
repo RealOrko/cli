@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"code.cloudfoundry.org/cli/api/uaa/internal"
+	"github.com/realorko/cli/api/uaa/public"
 )
 
 // Client is the UAA client

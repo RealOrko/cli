@@ -43,19 +43,19 @@ func (c *Test2) GetMetadata() plugin.PluginMetadata {
 	}
 }
 
-func theFirstCmd() {
-	fmt.Println("You called cmd1 in test_2")
-}
+// func theFirstCmd() {
+// 	fmt.Println("You called cmd1 in test_2")
+// }
 
-func theSecondCmd() {
-	fmt.Println("You called cmd2 in test_2")
-}
+// func theSecondCmd() {
+// 	fmt.Println("You called cmd2 in test_2")
+// }
 
 func uninstall(cliConnection plugin.CliConnection) {
 	fmt.Println("This plugin is being uninstalled, here are a list of apps you have running.")
 	cliConnection.CliCommand("apps")
 }
 
-func main() {
-	plugin.Start(new(Test2))
-}
+// func main() {
+// 	plugin.Start(new(Test2))
+// }

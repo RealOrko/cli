@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/ccv3fakes"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/internal"
+	"github.com/realorko/cli/api/cloudcontroller/ccv3/public"
 
 	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
 	. "code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"

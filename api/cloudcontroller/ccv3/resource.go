@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"code.cloudfoundry.org/cli/api/cloudcontroller"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/internal"
+	"github.com/realorko/cli/api/cloudcontroller/ccv3/public"
 )
 
 type Checksum struct {

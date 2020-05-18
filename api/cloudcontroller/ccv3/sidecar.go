@@ -1,7 +1,7 @@
 package ccv3
 
 import (
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/internal"
+	"github.com/realorko/cli/api/cloudcontroller/ccv3/public"
 
 	"code.cloudfoundry.org/cli/types"
 )

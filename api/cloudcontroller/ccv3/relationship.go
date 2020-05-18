@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"code.cloudfoundry.org/cli/api/cloudcontroller"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/internal"
+	"github.com/realorko/cli/api/cloudcontroller/ccv3/public"
 )
 
 // Relationship represents a one to one relationship.

@@ -5,7 +5,7 @@ import (
 	"regexp"
 
 	. "code.cloudfoundry.org/cli/cf/util/testhelpers/matchers"
-	"code.cloudfoundry.org/cli/integration/helpers/fakeservicebroker"
+	"github.com/realorko/cli/integration/helpers/fakeservicebroker"
 
 	"code.cloudfoundry.org/cli/integration/helpers"
 	. "github.com/onsi/ginkgo"

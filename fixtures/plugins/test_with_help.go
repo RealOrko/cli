@@ -40,6 +40,6 @@ func theHelpCmd() {
 	fmt.Println("You called help in test_with_help")
 }
 
-func main() {
-	plugin.Start(new(TestWithHelp))
-}
+// func main() {
+// 	plugin.Start(new(TestWithHelp))
+// }

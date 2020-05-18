@@ -39,6 +39,6 @@ func (c *Input) GetMetadata() plugin.PluginMetadata {
 	}
 }
 
-func main() {
-	plugin.Start(new(Input))
-}
+// func main() {
+// 	plugin.Start(new(Input))
+// }

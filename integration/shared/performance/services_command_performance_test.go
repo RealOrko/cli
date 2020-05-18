@@ -10,7 +10,7 @@ import (
 	. "github.com/onsi/gomega/gexec"
 
 	"code.cloudfoundry.org/cli/integration/helpers"
-	"code.cloudfoundry.org/cli/integration/helpers/fakeservicebroker"
+	"github.com/realorko/cli/integration/helpers/fakeservicebroker"
 )
 
 var _ = Describe("services command performance", func() {

@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/internal"
+	"github.com/realorko/cli/api/cloudcontroller/ccv3/public"
 )
 
 type FakeRequester struct {

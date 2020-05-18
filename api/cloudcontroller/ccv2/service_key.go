@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 
 	"code.cloudfoundry.org/cli/api/cloudcontroller"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2/internal"
+	"github.com/realorko/cli/api/cloudcontroller/ccv2/public"
 )
 
 // ServiceKey represents a Cloud Controller Service Key.

@@ -8,7 +8,7 @@ import (
 	"net/url"
 
 	"code.cloudfoundry.org/cli/actor/actionerror"
-	"code.cloudfoundry.org/cli/api/uaa/internal"
+	"github.com/realorko/cli/api/uaa/public"
 )
 
 // User represents an UAA user account.

@@ -2,7 +2,7 @@ package version
 
 import "github.com/blang/semver"
 
-const DefaultVersion = "0.0.0-unknown-version"
+const DefaultVersion = "6.51.0"
 
 var (
 	binaryVersion   string

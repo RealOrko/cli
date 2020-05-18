@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"code.cloudfoundry.org/cli/integration/helpers"
-	"code.cloudfoundry.org/cli/integration/helpers/fakeservicebroker"
+	"github.com/realorko/cli/integration/helpers/fakeservicebroker"
 	"code.cloudfoundry.org/cli/resources"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

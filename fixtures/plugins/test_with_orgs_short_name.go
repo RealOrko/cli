@@ -10,7 +10,7 @@
 package main
 
 import (
-	"fmt"
+	//"fmt"
 
 	"code.cloudfoundry.org/cli/plugin"
 )
@@ -36,10 +36,10 @@ func (c *TestWithOrgsShortName) GetMetadata() plugin.PluginMetadata {
 	}
 }
 
-func theOrgsCmd() {
-	fmt.Println("You called o in test_with_orgs_short_name")
-}
+// func theOrgsCmd() {
+// 	fmt.Println("You called o in test_with_orgs_short_name")
+// }
 
-func main() {
-	plugin.Start(new(TestWithOrgsShortName))
-}
+// func main() {
+// 	plugin.Start(new(TestWithOrgsShortName))
+// }

@@ -3,7 +3,7 @@ package ccv3
 import (
 	"encoding/json"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/internal"
+	"github.com/realorko/cli/api/cloudcontroller/ccv3/public"
 )
 
 // FeatureFlag represents a Cloud Controller V3 Feature Flag.

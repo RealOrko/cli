@@ -30,9 +30,9 @@ func (c *CoreCmd) GetMetadata() plugin.PluginMetadata {
 	}
 }
 
-func main() {
-	plugin.Start(new(CoreCmd))
-}
+// func main() {
+// 	plugin.Start(new(CoreCmd))
+// }
 
 func dumpOutput(output []string) {
 	fmt.Println("")

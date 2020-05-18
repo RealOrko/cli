@@ -40,6 +40,6 @@ func theOrgsCmd() {
 	fmt.Println("You called orgs in test_with_orgs")
 }
 
-func main() {
-	plugin.Start(new(TestWithOrgs))
-}
+// func main() {
+// 	plugin.Start(new(TestWithOrgs))
+// }
