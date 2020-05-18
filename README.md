@@ -21,6 +21,9 @@
 [![Command help pages](https://img.shields.io/badge/command-help-lightgrey.svg)](https://cli.cloudfoundry.org)
 [![Slack](https://slack.cloudfoundry.org/badge.svg)](https://slack.cloudfoundry.org)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/cloudfoundry/cli/blob/master/LICENSE)
+<a href="https://snapcraft.io/cf-cli">
+    <img alt="cf-bbl" src="https://snapcraft.io/cf-cli/badge.svg" />
+</a>
 
 ***Cloud Foundry CLI*** is the official command line client for [Cloud Foundry](https://cloudfoundry.org).
 Latest help of each command is [here](https://cli.cloudfoundry.org) (or run `cf help`);
@@ -58,13 +61,27 @@ It is recommended to download installers from the published URLs or using one of
 
 #### Installing using a package manager
 
-**Mac OS X** and **Linux** using [Homebrew](https://brew.sh/) via the [cloudfoundry tap](https://github.com/cloudfoundry/homebrew-tap):
+**Mac OS X** using [Homebrew](https://brew.sh/) via the [cloudfoundry tap](https://github.com/cloudfoundry/homebrew-tap):
 
 ```sh
 brew install cloudfoundry/tap/cf-cli
 ```
 
 **Note:** `cf` tab completion requires `bash-completion` to be installed properly in order to work.
+
+**Linux** using snapd: 
+
+You have to make sure you have [installed snapd](https://snapcraft.io/docs/installing-snapd) for your linux distro. 
+
+```sh
+snap install cf-cli
+```
+
+You can also alias `cf-cli` to `cf` in your `.bashrc` file. 
+
+```sh
+echo "alias cf='cf-cli'" >> ~/.bashrc
+```
 
 **Debian** and **Ubuntu** based Linux distributions:
 
